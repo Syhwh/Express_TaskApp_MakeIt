@@ -1,0 +1,30 @@
+{
+  "name": "express_taskapp_makeit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syhwh/Express_TaskApp_MakeIt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syhwh/Express_TaskApp_MakeIt/issues"
+  },
+  "homepage": "https://github.com/Syhwh/Express_TaskApp_MakeIt#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cookie-session": "^1.3.3",
+    "express": "^4.17.1",
+    "marked": "^0.7.0",
+    "mongoose": "^5.7.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.3",
+    "pug": "^2.0.4"
+  }
+}

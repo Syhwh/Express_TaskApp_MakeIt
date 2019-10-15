@@ -1,0 +1,21 @@
+extends layouts/layout
+
+block content
+  div(class="auth-page expand")
+    div(class="card")
+      div(class="card-header")
+        | Login
+      form(action="/login", method="post")
+        div(class="card-body")
+          div(class="form-group")
+            label(for="email") Email
+            input(type="text", id="email", name="email")
+          div(class="form-group")
+            label(for="password") Password
+            input(type="password", id="pasword", name="password")
+            
+        div(class="card-footer")
+          div(class="small")
+           | Don't have an account?
+           a(href="/register") Click Here
+        button(type="submit", class="btn btn-primary") Login
